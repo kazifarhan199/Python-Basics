@@ -1,0 +1,21 @@
+l=[4,6,1,61,21,412,1,66]
+print(l)
+
+l.append(44)          #append value in  list
+print(l)
+
+l.insert(2,33)        #insert 33 in index place 2
+print(l)
+
+l.remove(l[2])      	#or we can write anything we wanna remove in the bracket "()"
+print(l)
+
+print(l[2:6])         #from 2-6
+print(l[-1]) 	        #print the last n.o
+
+print(l.index(6))		  #gives place of storage in index
+
+print(l.count(1))  		#takes in no and tells how many of them are there in list
+
+l.sort			        	#sort according to no also works for alphabetic order
+print(l)
