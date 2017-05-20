@@ -1,0 +1,4 @@
+MyLishneari={'farhan':[8379908062,'black'],'kazi':[8379908072,'red'],'kamran':[8379908052,'broun']}
+
+print(MyLishneari['kazi'])
+print(MyLishneari['kazi'][0])
