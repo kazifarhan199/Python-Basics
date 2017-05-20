@@ -1,0 +1,7 @@
+import sys
+
+sys.stderr.write('stderr\n')
+sys.stderr.flush
+
+sys.stdout.write('this is stdout\n')
+print(int(sys.argv[1])+23)
