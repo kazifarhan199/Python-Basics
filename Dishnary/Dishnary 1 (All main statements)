@@ -1,0 +1,14 @@
+MyLishneari={'farhan':8379908062,'kazi':8379908072,'kamran':8379908052}
+
+MyLishneari['zoha']=8479908022  		#Add to Dishnary
+
+a=input('Name ? ')
+print(MyLishneari[a.lower()])
+
+MyLishneari['zoha']=83799080612 		#AS zohas no change
+
+print(MyLishneari)
+
+del MyLishneari['kazi']					#Remove from list
+
+print(MyLishneari)
