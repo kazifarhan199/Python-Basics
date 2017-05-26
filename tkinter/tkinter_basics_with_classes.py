@@ -21,7 +21,7 @@ class Window(Frame):
 		menu=Menu(self.root)
 		self.root.config(menu=menu)
 
-		file=Menu(menu)
+		file=Menu(menu)				#Use 'tearoff=0' or 'tearoff=False' to remove the lines (---) from menue
 		file.add_command(label='Save')
 		file.add_command(label='Exit',command=self.quit)
 		menu.add_cascade(label='File',menu=file)
