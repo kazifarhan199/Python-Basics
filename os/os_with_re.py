@@ -6,7 +6,7 @@ a=os.getcwd()			#get current working directory
 print(a)
 b=input('Where to go next? ')
 
-c=re.sub(r'\\',r'\\\\',b)
+c=re.sub(r'\\',r'\\\\',b)		#can also use re.sub('\\\\','\\\\\\\\',whatever)
 os.chdir(c)				#change working directery
 
 print(os.getcwd())
