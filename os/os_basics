@@ -3,6 +3,7 @@ import time
 
 c=os.getcwd()			#get current working directory
 print(c)
+os.chdir(c)			#change working directory
 os.mkdir('The name of new directory')			#make directory
 time.sleep(4)
 os.rename('The name of new directory','new name')	#As rename has path and name to move 
