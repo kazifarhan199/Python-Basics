@@ -10,6 +10,7 @@ c=re.sub(r'\\',r'\\\\',b)		#can also use re.sub('\\\\','\\\\\\\\',b)
 os.chdir(c)				#change working directery
 
 print(os.getcwd())
+print(os.listdir())			#to get content of folder
 
 os.mkdir('The name of new directory')			#make directory
 time.sleep(4)
