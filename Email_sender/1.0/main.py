@@ -48,4 +48,4 @@ def main(from_the_person,passward,subject_of_mail,Email_message):
 		mail.close()
 
 if __name__ == '__main__':
-	main('kazifarhan199@gmail.com','Firefox10@','d','a')
+	main('Your e-mail','Your passward','Subject','Message')
