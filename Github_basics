@@ -1,0 +1,23 @@
+###############################################
+git config --global user.name "Your Name"
+
+git config --global user.email "Your email"
+############################################
+
+git clone (link)
+
+git add (name)
+
+git commit -m"(comment)"(name of file)
+
+
+#git remote add origin (url)
+
+##if u have a error below
+#fatal: Not a git repository (or any of the parent directories): .git
+#use
+git init
+
+
+git push --set-upstream origin master
+git push
