@@ -31,7 +31,7 @@ class Window(Frame):
 		menu.add_cascade(label='Edit',menu=edit)
 
 	def showimage(self):
-		load=Image.open('C:\\Users\\kazif\\Pictures\\Aviary Photos\\images.jpg')
+		load=Image.open('images.jpg')
 		render=ImageTk.PhotoImage(load)
 		img=Label(self,image=render)
 		img.image=render
@@ -45,6 +45,7 @@ class Window(Frame):
 		exit()
 
 master=Tk()
+root.iconbitmap('file.ico')
 master.bind('<Control-w>',Q)
 master.geometry('250x250')
 
