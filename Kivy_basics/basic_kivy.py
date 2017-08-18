@@ -1,9 +1,9 @@
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-#kivy.require("1.10.0")
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
+#kivy.require("1.10.0")
 
 class login_screen(GridLayout):
 	def __init__(self,**kwargs):
