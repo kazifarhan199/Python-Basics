@@ -12,6 +12,7 @@ broun=(210,105,30)
 
 Rat_image = pygame.image.load('ratn.png')
 chees_image = pygame.image.load('chees.png')
+back_image = pygame.image.load('w.gif')
 
 gameDisplay = pygame.display.set_mode((display_width,display_height))
 pygame.display.set_caption('The Chowa Game')
@@ -30,10 +31,13 @@ while not crash:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			crash = True
+	
 	gameDisplay.fill(whit)
+	gameDisplay.blit(back_image,(0,0))
 	rat(x,y)
 	pygame.display.update()
 	clock.tick(50)
+	
 
 pygame.quit()
 quit()
